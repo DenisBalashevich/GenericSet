@@ -155,7 +155,7 @@ namespace SetGeneric
         }
         public override string ToString()
         {
-            StringBuilder result = new StringBuilder();
+            System.Text.StringBuilder result = new System.Text.StringBuilder();
             if (current == 0)
                 result.Append("Set is empty");
             foreach (var a in this)
